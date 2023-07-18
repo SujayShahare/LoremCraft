@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>LoremCraft</title>
+  </head>
+  <body>
+    <img src="./assets/icon128.png" />
+    <h1>LoremCraft</h1>
+
+    <label for="paragraph-number">Sentences:</label>
+    <input type="number" id="paragraph-number" min="1" value="3" />
+
+    <label for="sentences-number">Paragraphs:</label>
+    <input type="number" id="sentences-number" min="1" value="5" />
+
+    <button id="generate-button">Generate Text</button>
+    <button id="copy-button">Copy Text</button>
+    <div id="lorem-ipsum-text"></div>
+    <div class="copyright">
+      <p>© LoremCraft - <a href="https://github.com/SujayShahare">Github</a></p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
